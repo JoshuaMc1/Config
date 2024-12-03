@@ -1,0 +1,24 @@
+{
+    "name": "joshuamc1/config",
+    "description": "Config library",
+    "type": "library",
+    "require": {
+        "php": "^8.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "JoshuaMc1\\Config\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "JoshuaMc1",
+            "email": "joshua15mclean@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
